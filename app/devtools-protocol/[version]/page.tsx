@@ -32,6 +32,7 @@ export default async function ProtocolVersionPage({
 
   return (
     <main className="p-4 flex-grow">
+      <Card title="Testing if the Vercel preview work out of the box" />
       <Card
         title={'Protocol version ' + metadata.versionName}
         topContent={
